@@ -26,4 +26,4 @@ if st.button("Predict Salary"):
     prediction = model.predict(features)[0]
 
     # Show result
-    st.success(f"💰 Estimated Salary: ₹{int(prediction):,} per year")
+    st.success(f"💰 Estimated Salary: ₹{int(prediction):,} per month")
